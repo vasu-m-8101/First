@@ -1,0 +1,202 @@
+<html>
+<head>
+<title>scholarships table</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+body{
+		background: #88e2f2;
+}
+.tab{
+	display: flex;
+	padding-left: 180px;
+
+}
+.table1{
+     font-size:18px;
+     font-family:sans-serif;
+
+	 	}
+h2{
+	   text-align:center;
+     color:#000000;
+					}
+  .th{
+  color: black;
+		}
+form{
+  border: 2px solid #000000;
+	margin: 100px;
+	margin-right: 250px;
+	margin-left: 230px;
+}
+.container{
+
+}
+.left{
+    width:40%;
+    float:left;
+		margin-left:100px;
+	  }
+  .right{
+		margin-left: 30px;
+    width:40%;
+    float:right;
+	}
+.submit{
+		 margin:30px ;margin-left: 410px;
+	}
+
+@media(max-width:480px){
+
+.tab{
+	      display: flex;
+	      padding-left: 50px;
+	}
+form{
+		  border: 2px solid #000000;
+	          margin: 0px;
+		  margin-right: 0px;
+	          margin-left: 0px;
+}
+.container{
+
+}
+.left{
+	width:100%;
+	float:none;
+	margin-left:20px;
+			  }
+		  .right{
+		    margin-left: 20px;
+		   width:100%;
+		    float:none;
+	}
+	.submit{
+	 margin:30px ;
+	margin-left: 20px;	 
+	}
+
+}
+</style>
+</head>
+<body>
+
+	<h2><u>Smile India Scholarships</u></h2>
+	<p style="padding:30px;">Although engineering is one the most sought out education streams in India, pursuing a degree does not come cheap—the fees for these courses cost around 1.25 lakh-5 lakh per year.smile India took a step to aid students in pursuing engineering degree.</p>
+
+	<div class="tab">
+  <table   class="table1" column-gap:40px border=1>
+		<tr class="th">
+			<th>S.no</th>
+			<th>Scholarship name</th>
+			<th>Application period</th>
+			<th>Details</th>
+   </tr>
+		<tr>
+			<td>1</td>
+			<td> PG (GATE/GPAT) Scholarship</td>
+			<td>July to December</td>
+			<td><a href="./1.html">click here for more details</tr>
+		<tr>
+			<td>2</td>
+			<td>Research Fellowship Scheme</td>
+      <td>Twice in a year—May and December.</td>
+			<td><a href="./2.html">click here for more details</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Foundation Scholarship for Engineering</td>
+			<td>Between January and July</td>
+			<td><a href="./3.html">click here for more details</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>North-South Foundation Scholarship</td>
+				<td>Between October and November 2020</td>
+      	<td><a href="./4.html">click here for more details</td>
+		</tr>
+
+			<td>5</td>
+			<td>Siemens Scholarship Program For Students</td>
+		<td> 8-31 october 2020</td>
+			<td><a href="./5.html">click here for more details</td>
+		</tr>
+		<tr>
+
+	   </table>
+		</div>
+       <h2><u>Application form</u></h2>
+
+	<form action="">
+
+		<div class="container">
+		     	<div class="left">
+			         	<label for="fname">First Name:</label></br>
+			          <input type="text" id="fname" name="fname" value=""></br>
+
+								 <label for="lname">Last Name:</label></br>
+									<input type="text" id="lname" name="lname" value=""></br>
+									<label for="Fname">Father Name:</label></br>
+									<input type="text" id="Fname" name="Fname" value=""></br>
+                   <p>Gender:<p></br>
+								   <input type="radio" id="male" name="gender" value="male">
+									 <label for="male">Male</label></br>
+								   <input type="radio" id="female" name="gender" value="female">
+								   <label for="female">Female</label></br>
+								   <input type="radio" id="other" name="gender" value="other">
+								   <label for="other">Other</label></br>
+									 <label for="phone">Phone number:</label></br></br>
+								   <input type="tel" id="phone" name="phone" placeholder="+91|" pattern="[0-9]{10}" required></br></br>
+								   <label for="birthday">Birthday:</label></br>
+								   <input type="date" id="birthday" name="birthday"></br></br>
+									 <p>Address:<p>
+										 <label for="House no">House no:</label></br>
+										<input type="text" id="House no" name="House no" value=""></br>
+								   <label for="City Name">City Name:</label></br>
+								   <input type="text" id="City Name" name="City Name" value=""></br>
+								   <label for="Street Name">Street Name:</label></br>
+								   <input type="text" id="Street Name" name="Street Name" value=""></br>
+
+
+		     	</div>
+           <div class="right">
+						 <label for="scholarship name">Enter scholarship name:</label></br>
+						 <input type="text" id="scholarship name" name="scholarship name"></br></br>
+						 <label for="email">Enter your email:</label></br>
+						 <input type="email" id="email" name="email"></br></br>
+						 <label for="College Name">College Name:</label></br>
+						 <input type="text" id="College Name" name="College Name" value=""></br>
+						 <p>Hostler/Day Scholar:<p>
+						 <input type="radio" id="Hostler" name="Res" value="male">
+						 <label for="Hostler">Hostler</label></br>
+						 <input type="radio" id="Day Scholar" name="Res" value="Day Scholar">
+						 <label for="Day Scholar">Day Scholar</label></br></br>
+						 <label for="Year">Year of Studying:</label></br>
+						 <input type="Year" id="Year" name="Year" placeholder="" pattern="[0-9]{4}" required></br>
+						 <p>Course:<p>
+						 <input type="radio" id="B-tech/B.E." name="Course" value="B-tech/B.E.">
+						 <label for="B-tech/B.E.">B-tech/B.E.</label></br>
+						 <input type="radio" id="M-tech/MBA" name="Course" value="M-tech/MBA">
+						 <label for="M-tech/MBA">M-tech/MBA</label></br>
+						 <p>Branch:<p>
+						 <input type="radio" id="CSE" name="Branch" value="CSE">
+						 <label for="CSE">CSE</label></br>
+						 <input type="radio" id="ECE" name="Branch" value="ECE">
+						 <label for="ECE">ECE</label></br>
+						 <input type="radio" id="EEE" name="Branch" value="EEE">
+						 <label for="EEE">EEE</label></br>
+						 <input type="radio" id="CIVIL" name="Branch" value="CIVIL">
+						 <label for="CIVIL">CIVIL</label></br>
+						 <input type="radio" id="ME" name="Branch" value="ME">
+						 <label for="ME">ME</label></br>
+						 <input type="radio" id="CHE" name="Branch" value="CHE">
+						 <label for="CHE">CHE</label></br></br>
+            </div>
+                <div  class="submit"> <input  type="submit"></div>
+	</div>
+</form>
+
+	</body>
+	</html>
